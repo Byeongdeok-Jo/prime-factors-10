@@ -18,6 +18,8 @@ class PrimeFactorTest(TestCase):
     def test_prime_factor_of_4(self):
         self.assertEqual([2, 2], self.prime_factor.calcPrime(4))
 
-
     def test_prime_factor_of_6(self):
         self.assertEqual([2, 3], self.prime_factor.calcPrime(6))
+
+    def test_prime_factor_of_9(self):
+        self.assertEqual([3, 3], self.prime_factor.calcPrime(9))
